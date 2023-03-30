@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tinybot_gazebo</name>
+  <version>0.0.1</version>
+  <description>
+    Gazebo wrapper for Tinybot robotics arm.
+  </description>
+
+
+  <author>Vladislav antipov</author>
+  <maintainer email="texnoman@itmo.ru">Vladilav Antipov</maintainer>
+
+  <license>MIT</license>
+
+  <url type="website">https://github.com/TinyBotRobotics/tinybot_gazebo</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <test_depend>roslaunch</test_depend>
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>effort_controllers</exec_depend>
+  <exec_depend>joint_state_controller</exec_depend>
+  <exec_depend>joint_trajectory_controller</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>gazebo_ros_control</exec_depend>
+  <exec_depend>position_controllers</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rostopic</exec_depend>
+  <exec_depend>tinybot_description</exec_depend>
+
+
+  <export>
+  </export>
+</package>
